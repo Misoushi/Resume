@@ -1,0 +1,129 @@
+/* Standard Page Style */
+body{
+    color: rgb(102, 85, 85);
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    word-break:normal;
+}
+
+/* Theme Colours */
+.big-header, h3 {
+    /* background-color: #fd6a6a; */
+    background-color: #395399;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Oversized container (for header color) */
+.wide-container {
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+}
+
+/* Letter margins */
+.letter-width {
+    width: 100%;
+    margin-left: 0.4in;
+    margin-right: 0.4in;
+    display: flex;
+}
+
+/* Flex one column */
+.full-flex {
+    flex:100%;
+}
+
+/* Flex two uneven columns */
+.left-side {
+    flex:65%;
+    padding-right: 0.2in;
+}
+
+.right-side {
+    flex:35%;
+    padding-left: 0.2in;
+    /* Shade Right Side */
+    padding-right: 0.4in;
+    margin-right: -0.4in;
+    padding-top: 30px;
+    margin-top: -32px;
+    padding-bottom: 0px;
+    margin-bottom: -200px;
+    /* background-color: rgba(255, 210, 210, 0.788); */
+    background-color: #e0e7f7;
+    z-index: -1;
+}
+
+
+/* Resume Header */
+.big-header {
+    height:fit-content;
+    margin-top: -8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+/* Contacts Bar */
+span {
+    font-size: 17px;
+}
+
+i {
+    transform: translateY(6px);
+}
+
+
+/* Resume body */
+.resume-body {
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight:600;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 0px;
+    border-radius: 4px;
+}
+
+/* Indentation & Formatting */
+h4 {
+    margin-bottom: 0px;
+}
+
+.top-margin {
+    margin-top: 4px;
+}
+
+.first-line {
+    margin-top: -10px;
+}
+
+.indent-first {
+    text-indent: 15px;
+}
+
+.indent-second {
+    text-indent: 25px;
+}
+
+li {
+    text-indent: 0px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
